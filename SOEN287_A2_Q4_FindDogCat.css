@@ -1,0 +1,154 @@
+/*CSS file*/
+body{
+    background-color: whitesmoke;
+}
+.logo{
+    height: 50px;
+    border-radius: 25%;
+    border: 7px solid teal;
+    margin-top: auto;
+}
+.header {
+    padding: 20px;
+    text-align: center;
+    background: lightgray;
+    margin-top:-10px;
+    margin-left: 180px;
+    font-size:20px;
+  }
+  h1{
+    color: teal;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  h3{
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .sidebar {
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: black;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  .sidebar a {
+    display:block;
+    color: white;
+    padding: 15px;
+    font-size: 17px;
+    text-decoration:none;
+  }
+  .sidebar a.active {
+    background-color: teal;
+    color: white;
+  }
+  
+  .sidebar a:hover:not(.active) {
+    background-color: black;
+    color:rgb(21, 184, 184);
+    border-radius:5px;
+    box-shadow: 0 0 5px #33ffff,
+                0 0 5px #66ffff;
+  }
+  .content{
+    margin-left: 200px;
+  }
+  .footer{
+    position: relative;
+    margin-left: 191px;
+    bottom: -10px;
+    background-color: grey;
+    text-align:center;
+
+   /* margin-left: 180px;
+    background-color: grey;
+    text-align: center;
+    padding: 20px;*/
+  }
+  .footer a{
+    color: white;
+    font-size: 17px;
+    text-decoration:none;
+    text-align: center;
+  }
+  form {
+    background-color: #fff;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+}
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+
+.form-control input[type="radio"] {
+    display: inline-block;
+    width: auto;
+}
+
+button {
+    background-color:teal;
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: inherit;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+}
+.button {
+  background-color: black;
+  overflow: hidden;
+  position: fixed;
+  bottom: 50px;
+  left: 91%;
+}
+.button a {
+  color:white;
+  text-align:center;
+  padding: 15px;
+  text-decoration:none;
+  font-size:15px;
+}
+.button a:hover{
+    color:rgb(21, 184, 184);
+        border-radius:5px;
+        box-shadow: 0 0 5px #33ffff,
+                    0 0 5px #66ffff;
+}  
+.footer p{
+  color: white;
+  font-size: 17px;
+  text-decoration:none;
+  text-align: center;
+  margin-top: 2px;
+  margin-bottom:2px ;
+}

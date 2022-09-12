@@ -1,0 +1,23 @@
+/* CSS file*/
+div{
+    padding: 5px;
+    border: green solid 2px;
+    border-style: dotted;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+}
+#first{
+    position: absolute;
+    z-index: 1;
+}
+#second{
+position: absolute;
+z-index: 2;
+top: 100px;
+left: 100px;
+}
+.red{
+    color: red;
+    font-weight: bolder;
+}
